@@ -63,7 +63,7 @@ body {
   font-family: "Montserrat", sans-serif;
   margin-bottom: 60px;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
 }
 #es-ysl.es-ysl .es-banner__text--uppercase {
@@ -168,7 +168,7 @@ body {
   padding: 25px;
   margin-bottom: 30px;
   border: 1px solid #000;
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 700;
 }
 #es-ysl.es-ysl .es-category__items {
@@ -635,11 +635,17 @@ body {
   #es-ysl.es-ysl .es-category {
     margin-bottom: 70px;
   }
+  #es-ysl.es-ysl .es-category__text--border {
+    font-size: 20px;
+  }
   #es-ysl.es-ysl .es-category__item-subtitle {
     min-height: auto;
   }
   #es-ysl.es-ysl .es-video {
     margin-bottom: 60px;
+  }
+  #es-ysl.es-ysl .es-banner__text {
+    font-size: 20px;
   }
   #es-ysl.es-ysl .es-banner__subtitle {
     font-size: 30px;

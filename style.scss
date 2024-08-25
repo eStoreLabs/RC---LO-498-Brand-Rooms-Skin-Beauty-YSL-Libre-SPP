@@ -79,7 +79,7 @@ body {
       font-family: $regular;
       margin-bottom: 60px;
       font-weight: 400;
-      font-size: 20px;
+      font-size: 16px;
       text-align: center;
 
       &--uppercase {
@@ -177,7 +177,7 @@ body {
         padding: 25px;
         margin-bottom: 30px;
         border: 1px solid #000;
-        font-size: 20px;
+        font-size: 14px;
         font-weight: 700;
       }
     }
@@ -692,6 +692,12 @@ body {
   @media screen and (min-width: 1300px) {
     .es-category {
       margin-bottom: 70px;
+
+      &__text {
+        &--border {
+          font-size: 20px;
+        }
+      }
     }
 
     .es-category {
@@ -705,6 +711,9 @@ body {
     }
 
     .es-banner {
+      &__text {
+        font-size: 20px;
+      }
       &__subtitle {
         font-size: 30px;
       }
